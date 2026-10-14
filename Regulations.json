@@ -1,0 +1,1753 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": "2026-10-12",
+  "lastVerified": "2026-10-12",
+  "disclaimer": "MarineMeasure summarizes recreational rules from state agencies and news sources as of the verified date. Rules change, local areas can differ, and only the official regulations are legally binding. When in doubt, release it and check with the agency.",
+  "states": [
+    {
+      "code": "MA",
+      "name": "Massachusetts",
+      "agency": "MA Division of Marine Fisheries",
+      "regulationsURL": "https://www.mass.gov/orgs/division-of-marine-fisheries"
+    },
+    {
+      "code": "RI",
+      "name": "Rhode Island",
+      "agency": "RI DEM Marine Fisheries",
+      "regulationsURL": "https://dem.ri.gov/natural-resources-bureau/marine-fisheries"
+    },
+    {
+      "code": "CT",
+      "name": "Connecticut",
+      "agency": "CT DEEP Fisheries",
+      "regulationsURL": "https://portal.ct.gov/deep/fishing/saltwater-fishing-guide/species-regulations"
+    },
+    {
+      "code": "NY",
+      "name": "New York",
+      "agency": "NYS Department of Environmental Conservation",
+      "regulationsURL": "https://dec.ny.gov/"
+    },
+    {
+      "code": "NJ",
+      "name": "New Jersey",
+      "agency": "NJ Fish & Wildlife",
+      "regulationsURL": "https://dep.nj.gov/njfw/"
+    },
+    {
+      "code": "DE",
+      "name": "Delaware",
+      "agency": "DNREC Fish & Wildlife",
+      "regulationsURL": "https://dnrec.delaware.gov/fish-wildlife/fishing/"
+    },
+    {
+      "code": "MD",
+      "name": "Maryland",
+      "agency": "Maryland DNR Fisheries",
+      "regulationsURL": "https://dnr.maryland.gov/fisheries/"
+    },
+    {
+      "code": "VA",
+      "name": "Virginia",
+      "agency": "Virginia Marine Resources Commission",
+      "regulationsURL": "https://mrc.virginia.gov/regulations/VA-recreational-crabbing-rules.shtm"
+    },
+    {
+      "code": "NC",
+      "name": "North Carolina",
+      "agency": "NC Division of Marine Fisheries",
+      "regulationsURL": "https://deq.nc.gov/about/divisions/marine-fisheries/rules-proclamations-and-size-and-bag-limits/recreational-size-and-bag-limits"
+    },
+    {
+      "code": "SC",
+      "name": "South Carolina",
+      "agency": "SC Department of Natural Resources",
+      "regulationsURL": "https://www.dnr.sc.gov/"
+    },
+    {
+      "code": "GA",
+      "name": "Georgia",
+      "agency": "Georgia DNR Coastal Resources",
+      "regulationsURL": "https://coastalgadnr.org/"
+    },
+    {
+      "code": "FL",
+      "name": "Florida",
+      "agency": "Florida Fish and Wildlife Conservation Commission",
+      "regulationsURL": "https://myfwc.com/fishing/saltwater/recreational/"
+    },
+    {
+      "code": "AL",
+      "name": "Alabama",
+      "agency": "Alabama Marine Resources Division",
+      "regulationsURL": "https://www.outdooralabama.com/"
+    },
+    {
+      "code": "MS",
+      "name": "Mississippi",
+      "agency": "Mississippi Dept. of Marine Resources",
+      "regulationsURL": "https://dmr.ms.gov/"
+    },
+    {
+      "code": "LA",
+      "name": "Louisiana",
+      "agency": "Louisiana Dept. of Wildlife & Fisheries",
+      "regulationsURL": "https://www.wlf.louisiana.gov/page/saltwater-fishing"
+    },
+    {
+      "code": "TX",
+      "name": "Texas",
+      "agency": "Texas Parks & Wildlife",
+      "regulationsURL": "https://tpwd.texas.gov/regulations/outdoor-annual/fishing/"
+    }
+  ],
+  "rules": [
+    {
+      "species": "blue_crab",
+      "state": "NJ",
+      "lastVerified": "2026-10-12",
+      "sourceName": "The Fisherman, Jul 2026 (citing the 2026 NJ Marine Digest)",
+      "sourceURL": "https://www.thefisherman.com/article/crabbing-in-new-jersey-know-before-you-go/",
+      "sizeLimits": [
+        {
+          "min": 4.5,
+          "shells": [
+            "hard"
+          ],
+          "note": "hard shell"
+        },
+        {
+          "min": 3.0,
+          "shells": [
+            "peeler"
+          ],
+          "note": "peeler/shedder"
+        },
+        {
+          "min": 3.5,
+          "shells": [
+            "soft"
+          ],
+          "note": "soft shell"
+        }
+      ],
+      "prohibitions": [
+        {
+          "condition": "eggBearing",
+          "message": "Female crabs with eggs attached must be returned to the water immediately."
+        }
+      ],
+      "bagLimit": "1 bushel per person per day",
+      "notes": [
+        "Measured point to point across the shell.",
+        "Hand lines, collapsible traps and scoop nets need no license. Up to 2 Chesapeake-style pots or trotlines require a NJ recreational crab pot license.",
+        "Selling crabs requires a commercial license."
+      ]
+    },
+    {
+      "species": "blue_crab",
+      "state": "NY",
+      "lastVerified": "2026-10-12",
+      "sourceName": "The Fisherman, Jul 20 2026 (citing NYSDEC)",
+      "sourceURL": "https://www.thefisherman.com/article/brush-up-on-blue-crab-regulations-before-you-go/",
+      "sizeLimits": [
+        {
+          "min": 4.5,
+          "shells": [
+            "hard"
+          ],
+          "note": "hard shell"
+        },
+        {
+          "min": 3.5,
+          "shells": [
+            "soft"
+          ],
+          "note": "soft shell"
+        },
+        {
+          "min": 3.0,
+          "shells": [
+            "peeler"
+          ],
+          "note": "peeler/shedder"
+        }
+      ],
+      "prohibitions": [
+        {
+          "condition": "eggBearing",
+          "message": "Taking or possessing egg-bearing crabs is prohibited."
+        }
+      ],
+      "bagLimit": "50 crabs per person per day",
+      "notes": [
+        "No license needed; open year-round.",
+        "Non-collapsible pots need buoys, escape panels and, in many waters, Terrapin Excluder Devices."
+      ]
+    },
+    {
+      "species": "blue_crab",
+      "state": "CT",
+      "lastVerified": "2026-10-12",
+      "sourceName": "CT DEEP Blue Crab & Lobster Regulations (Jun 2025)",
+      "sourceURL": "https://portal.ct.gov/deep/fishing/saltwater-fishing-guide/bait-species-blue-crab-and-lobster-regulations",
+      "sizeLimits": [
+        {
+          "min": 5.0,
+          "shells": [
+            "hard",
+            "peeler"
+          ],
+          "note": "hard shell"
+        },
+        {
+          "min": 3.5,
+          "shells": [
+            "soft"
+          ],
+          "note": "soft shell"
+        }
+      ],
+      "openSeasons": [
+        {
+          "start": "05-01",
+          "end": "11-30"
+        }
+      ],
+      "prohibitions": [
+        {
+          "condition": "eggBearing",
+          "message": "Possession of egg-bearing females is prohibited."
+        }
+      ],
+      "notes": [
+        "Measured spike tip to spike tip. No license required.",
+        "Chesapeake-style crab pots are prohibited; all devices must be attended.",
+        "No more than 2 claws per body."
+      ]
+    },
+    {
+      "species": "blue_crab",
+      "state": "DE",
+      "lastVerified": "2026-10-12",
+      "sourceName": "Delaware Code, Title 7, Chapter 23",
+      "sourceURL": "https://delcode.delaware.gov/title7/c023/index.html",
+      "sizeLimits": [
+        {
+          "min": 5.0,
+          "shells": [
+            "hard"
+          ],
+          "sexes": [
+            "unknown",
+            "male",
+            "immatureFemale"
+          ],
+          "note": "hard shell"
+        },
+        {
+          "min": 3.0,
+          "shells": [
+            "peeler"
+          ],
+          "note": "peeler"
+        },
+        {
+          "min": 3.5,
+          "shells": [
+            "soft"
+          ],
+          "note": "soft shell"
+        }
+      ],
+      "prohibitions": [
+        {
+          "condition": "eggBearing",
+          "message": "Sponge crabs (eggs visible) may not be taken or possessed."
+        }
+      ],
+      "bagLimit": "1 bushel per person per day",
+      "notes": [
+        "Mature females (rounded, U-shaped apron) are exempt from the 5-inch hard-crab minimum.",
+        "Up to 2 recreational pots with white buoys; pots may not be left in the water Dec 1 to the end of February."
+      ]
+    },
+    {
+      "species": "blue_crab",
+      "state": "MD",
+      "lastVerified": "2026-10-12",
+      "sourceName": "COMAR 08.02.03.14 and Maryland DNR",
+      "sourceURL": "https://regs.maryland.gov/us/md/exec/comar/08.02.03.14",
+      "sizeLimits": [
+        {
+          "min": 5.0,
+          "shells": [
+            "hard"
+          ],
+          "regions": [
+            "md_bay"
+          ],
+          "start": "04-01",
+          "end": "07-14",
+          "note": "hard male"
+        },
+        {
+          "min": 5.25,
+          "shells": [
+            "hard"
+          ],
+          "regions": [
+            "md_bay"
+          ],
+          "start": "07-15",
+          "end": "12-15",
+          "note": "hard male"
+        },
+        {
+          "min": 5.0,
+          "shells": [
+            "hard"
+          ],
+          "regions": [
+            "md_coastal"
+          ],
+          "note": "hard male"
+        },
+        {
+          "min": 3.25,
+          "shells": [
+            "peeler"
+          ],
+          "start": "04-01",
+          "end": "07-14",
+          "note": "peeler"
+        },
+        {
+          "min": 3.5,
+          "shells": [
+            "peeler"
+          ],
+          "start": "07-15",
+          "end": "12-15",
+          "note": "peeler"
+        },
+        {
+          "min": 3.5,
+          "shells": [
+            "soft"
+          ],
+          "note": "soft shell"
+        }
+      ],
+      "openSeasons": [
+        {
+          "start": "04-01",
+          "end": "12-15"
+        }
+      ],
+      "prohibitions": [
+        {
+          "condition": "female",
+          "message": "Recreational crabbers may not keep female hard or peeler crabs in Maryland."
+        },
+        {
+          "condition": "eggBearing",
+          "message": "Sponge (egg-bearing) crabs may not be possessed."
+        }
+      ],
+      "bagLimit": "Unlicensed: 2 dozen male hard crabs per person. Licensed: 1 bushel of males.",
+      "notes": [
+        "Recreational crabbing is closed on Wednesdays in the Chesapeake Bay (handlines, dip nets and pots from private property are exempt).",
+        "Measured tip to tip of the spikes."
+      ],
+      "regions": [
+        {
+          "id": "md_bay",
+          "name": "Chesapeake Bay & tidal tributaries",
+          "counties": [
+            "Anne Arundel",
+            "Baltimore",
+            "Baltimore City",
+            "Calvert",
+            "Caroline",
+            "Cecil",
+            "Charles",
+            "Dorchester",
+            "Harford",
+            "Kent",
+            "Prince George's",
+            "Queen Anne's",
+            "St. Mary's",
+            "Somerset",
+            "Talbot",
+            "Wicomico"
+          ]
+        },
+        {
+          "id": "md_coastal",
+          "name": "Atlantic Coastal Bays (Worcester County)",
+          "counties": [
+            "Worcester"
+          ]
+        }
+      ]
+    },
+    {
+      "species": "blue_crab",
+      "state": "VA",
+      "lastVerified": "2026-10-12",
+      "sourceName": "Virginia Marine Resources Commission (Jul 2025)",
+      "sourceURL": "https://mrc.virginia.gov/regulations/VA-recreational-crabbing-rules.shtm",
+      "sizeLimits": [
+        {
+          "min": 5.0,
+          "shells": [
+            "hard"
+          ],
+          "sexes": [
+            "unknown",
+            "male",
+            "immatureFemale"
+          ],
+          "note": "hard male / immature female"
+        },
+        {
+          "min": 3.25,
+          "shells": [
+            "peeler"
+          ],
+          "regions": [
+            "va_bay"
+          ],
+          "start": "03-17",
+          "end": "07-15",
+          "note": "peeler"
+        },
+        {
+          "min": 3.5,
+          "shells": [
+            "peeler"
+          ],
+          "regions": [
+            "va_bay"
+          ],
+          "start": "07-16",
+          "end": "11-30",
+          "note": "peeler"
+        },
+        {
+          "min": 3.25,
+          "shells": [
+            "peeler"
+          ],
+          "regions": [
+            "va_seaside"
+          ],
+          "note": "peeler"
+        },
+        {
+          "min": 3.5,
+          "shells": [
+            "soft"
+          ],
+          "note": "soft shell"
+        }
+      ],
+      "prohibitions": [
+        {
+          "condition": "darkSponge",
+          "message": "From March 17 to June 15 only bright orange sponge crabs may be kept; brown or black sponge crabs must be released.",
+          "start": "03-17",
+          "end": "06-15"
+        }
+      ],
+      "bagLimit": "1 bushel of hard crabs plus 2 dozen peelers per person per day",
+      "notes": [
+        "Mature females (sooks) have no minimum size.",
+        "Measured tip to tip of the longest spikes.",
+        "Returning all sponge crabs is a recommended conservation practice."
+      ],
+      "regions": [
+        {
+          "id": "va_bay",
+          "name": "Chesapeake Bay & tributaries",
+          "counties": [
+            "Gloucester",
+            "Mathews",
+            "Middlesex",
+            "Lancaster",
+            "Northumberland",
+            "Westmoreland",
+            "Richmond",
+            "Essex",
+            "King George",
+            "King and Queen",
+            "King William",
+            "New Kent",
+            "Charles City",
+            "James City",
+            "York",
+            "Poquoson",
+            "Hampton",
+            "Newport News",
+            "Norfolk",
+            "Portsmouth",
+            "Isle of Wight",
+            "Surry",
+            "Suffolk"
+          ]
+        },
+        {
+          "id": "va_seaside",
+          "name": "Seaside of the Eastern Shore"
+        }
+      ]
+    },
+    {
+      "species": "blue_crab",
+      "state": "NC",
+      "lastVerified": "2026-10-12",
+      "sourceName": "NC Division of Marine Fisheries (effective Sep 2, 2026)",
+      "sourceURL": "https://deq.nc.gov/about/divisions/marine-fisheries/rules-proclamations-and-size-and-bag-limits/recreational-size-and-bag-limits",
+      "sizeLimits": [
+        {
+          "min": 5.0,
+          "note": "carapace width"
+        }
+      ],
+      "openSeasons": [
+        {
+          "start": "02-01",
+          "end": "12-31",
+          "regions": [
+            "nc_north"
+          ]
+        },
+        {
+          "start": "01-01",
+          "end": "02-29",
+          "regions": [
+            "nc_south"
+          ]
+        },
+        {
+          "start": "03-16",
+          "end": "12-31",
+          "regions": [
+            "nc_south"
+          ]
+        }
+      ],
+      "prohibitions": [
+        {
+          "condition": "immatureFemale",
+          "message": "Immature female crabs may not be possessed at any time."
+        },
+        {
+          "condition": "darkSponge",
+          "message": "Dark (brown or black) sponge crabs may not be possessed April 1-30.",
+          "start": "04-01",
+          "end": "04-30"
+        }
+      ],
+      "bagLimit": "50 crabs per person per day, max 100 per vessel",
+      "notes": [
+        "Possession is closed Jan 1-31 north of the NC Highway 58 bridge and Mar 1-15 south of it."
+      ],
+      "regions": [
+        {
+          "id": "nc_north",
+          "name": "North of the NC Hwy 58 bridge (Emerald Isle)",
+          "counties": [
+            "Currituck",
+            "Camden",
+            "Pasquotank",
+            "Perquimans",
+            "Chowan",
+            "Bertie",
+            "Washington",
+            "Tyrrell",
+            "Dare",
+            "Hyde",
+            "Beaufort",
+            "Pamlico",
+            "Craven",
+            "Hertford",
+            "Gates",
+            "Martin"
+          ]
+        },
+        {
+          "id": "nc_south",
+          "name": "South of the NC Hwy 58 bridge",
+          "counties": [
+            "Onslow",
+            "Pender",
+            "New Hanover",
+            "Brunswick"
+          ]
+        }
+      ]
+    },
+    {
+      "species": "blue_crab",
+      "state": "SC",
+      "lastVerified": "2026-10-12",
+      "sourceName": "SCDNR (blue crab law changes effective Jul 1, 2025)",
+      "sourceURL": "https://dnr.sc.gov/news/2024/Aug/aug30-bluecrab.php",
+      "sizeLimits": [
+        {
+          "min": 5.0,
+          "note": "point to point"
+        }
+      ],
+      "prohibitions": [
+        {
+          "condition": "eggBearing",
+          "message": "Return all females with eggs to the water."
+        }
+      ],
+      "bagLimit": "1 bushel per person per day, 2 bushels per boat",
+      "notes": [
+        "A standard recreational saltwater license allows 2 crab pots; the $5 enhanced endorsement allows up to 5.",
+        "All crab pots need escape rings."
+      ]
+    },
+    {
+      "species": "blue_crab",
+      "state": "GA",
+      "lastVerified": "2026-10-12",
+      "sourceName": "Georgia DNR Law Enforcement",
+      "sourceURL": "https://gadnrle.org/shrimpregs",
+      "sizeLimits": [
+        {
+          "min": 5.0,
+          "shells": [
+            "hard"
+          ],
+          "sexes": [
+            "unknown",
+            "male",
+            "immatureFemale"
+          ],
+          "note": "spike to spike"
+        },
+        {
+          "min": 3.0,
+          "shells": [
+            "peeler",
+            "soft"
+          ],
+          "note": "peeler"
+        }
+      ],
+      "prohibitions": [
+        {
+          "condition": "eggBearing",
+          "message": "Sponge crabs (egg-bearing females) may not be taken."
+        }
+      ],
+      "bagLimit": "1 bushel per person per 24 hours; 2 bushels per boat with more than one person",
+      "notes": [
+        "Mature females are exempt from the 5-inch minimum.",
+        "Up to 6 recreational traps with escape rings and green floats."
+      ]
+    },
+    {
+      "species": "blue_crab",
+      "state": "FL",
+      "lastVerified": "2026-10-12",
+      "sourceName": "FWC Recreational Blue Crab",
+      "sourceURL": "https://myfwc.com/fishing/saltwater/recreational/blue-crab/",
+      "sizeLimits": [],
+      "prohibitions": [
+        {
+          "condition": "eggBearing",
+          "message": "Harvesting egg-bearing blue crabs is prohibited."
+        }
+      ],
+      "bagLimit": "10 gallons whole per person per day",
+      "notes": [
+        "Florida has no recreational minimum size for blue crabs. FWC recommends releasing females unharmed.",
+        "Up to 5 traps with free annual registration (age 16+); traps are pulled by hand, in daylight only.",
+        "Regional trap closures rotate coasts each year (even years: east coast, e.g. Brevard to Palm Beach Aug 10-19)."
+      ]
+    },
+    {
+      "species": "blue_crab",
+      "state": "AL",
+      "lastVerified": "2026-10-12",
+      "sourceName": "ADCNR Recreational Blue Crab Regulations (Oct 2018)",
+      "sourceURL": "https://outdooralabama.com/saltwater-regulations-and-enforcement/recreational-blue-crab-regulations",
+      "sizeLimits": [
+        {
+          "min": 5.0,
+          "note": "tip to tip of the lateral spines"
+        }
+      ],
+      "prohibitions": [
+        {
+          "condition": "eggBearing",
+          "message": "Egg-bearing females must be returned immediately (possession is allowed only Jan 15 - May 15).",
+          "start": "05-16",
+          "end": "01-14"
+        }
+      ],
+      "notes": [
+        "Up to 5 recreational traps with a saltwater fishing license.",
+        "This summary is dated October 2018; confirm with Alabama Marine Resources."
+      ]
+    },
+    {
+      "species": "blue_crab",
+      "state": "MS",
+      "lastVerified": "2026-10-12",
+      "sourceName": "Mississippi DMR",
+      "sourceURL": "https://dmr.ms.gov/reminder-regarding-state-law-prohibiting-catch-or-possession-of-female-sponge-crabs/",
+      "sizeLimits": [
+        {
+          "min": 5.0,
+          "note": "carapace width"
+        }
+      ],
+      "prohibitions": [
+        {
+          "condition": "eggBearing",
+          "message": "State law prohibits catching or possessing female sponge crabs."
+        }
+      ],
+      "bagLimit": "No recreational bag limit",
+      "notes": [
+        "Recreational traps are limited to 6 per household."
+      ]
+    },
+    {
+      "species": "blue_crab",
+      "state": "LA",
+      "lastVerified": "2026-10-12",
+      "sourceName": "Louisiana Dept. of Wildlife & Fisheries",
+      "sourceURL": "https://www.wlf.louisiana.gov/page/recreational-crab-oyster-shrimp",
+      "sizeLimits": [],
+      "prohibitions": [
+        {
+          "condition": "eggBearing",
+          "message": "Adult females in the berry (egg) stage may not be harvested; return them immediately."
+        }
+      ],
+      "bagLimit": "12 dozen per person per day",
+      "notes": [
+        "Louisiana has no recreational minimum size for blue crabs.",
+        "Up to 10 recreational traps; traps may not be tended at night."
+      ]
+    },
+    {
+      "species": "blue_crab",
+      "state": "TX",
+      "lastVerified": "2026-10-12",
+      "sourceName": "TPWD Outdoor Annual (valid Sep 1, 2026 - Aug 31, 2027)",
+      "sourceURL": "https://tpwd.texas.gov/regulations/outdoor-annual/fishing/shellfish-regulations/crab-and-ghost-shrimp-legal-devices-and-restrictions",
+      "sizeLimits": [
+        {
+          "min": 5.0,
+          "note": "tip of spine to tip of spine"
+        }
+      ],
+      "prohibitions": [
+        {
+          "condition": "eggBearing",
+          "message": "Egg-bearing (sponge) females may not be possessed."
+        }
+      ],
+      "bagLimit": "No daily bag or possession limit",
+      "notes": [
+        "Up to 5% undersized crabs may be kept for bait only, in a separate container.",
+        "Crab traps are prohibited in coastal waters Feb 19-28, 2027."
+      ]
+    },
+    {
+      "species": "summer_flounder",
+      "state": "NJ",
+      "lastVerified": "2026-10-12",
+      "sourceName": "FishingBooker 2026 NJ flounder guide & The Fisherman (May 2026)",
+      "sourceURL": "https://www.thefisherman.com/marine-regulations/",
+      "sizeLimits": [
+        {
+          "min": 18.0,
+          "regions": [
+            "nj_other"
+          ]
+        },
+        {
+          "min": 17.0,
+          "regions": [
+            "nj_delbay"
+          ]
+        },
+        {
+          "min": 16.0,
+          "regions": [
+            "nj_ibsp"
+          ]
+        }
+      ],
+      "openSeasons": [
+        {
+          "start": "05-04",
+          "end": "09-25"
+        }
+      ],
+      "bagLimit": "3 fish per person per day (2 at Island Beach State Park)",
+      "notes": [
+        "Cape May Canal east of the ferry terminal uses the 18-inch limit."
+      ],
+      "regions": [
+        {
+          "id": "nj_other",
+          "name": "All other NJ marine waters"
+        },
+        {
+          "id": "nj_delbay",
+          "name": "Delaware Bay & tributaries (west of the COLREGS line)",
+          "counties": [
+            "Cumberland",
+            "Salem"
+          ]
+        },
+        {
+          "id": "nj_ibsp",
+          "name": "Island Beach State Park (shore)"
+        }
+      ],
+      "year": 2026
+    },
+    {
+      "species": "black_sea_bass",
+      "state": "NJ",
+      "lastVerified": "2026-10-12",
+      "sourceName": "The Fisherman NJ regulations table (updated May 2026)",
+      "sourceURL": "https://www.thefisherman.com/marine-regulations/",
+      "sizeLimits": [
+        {
+          "min": 12.5
+        }
+      ],
+      "openSeasons": [
+        {
+          "start": "05-15",
+          "end": "06-21",
+          "note": "10 fish"
+        },
+        {
+          "start": "06-22",
+          "end": "09-22",
+          "note": "1 fish"
+        },
+        {
+          "start": "09-23",
+          "end": "10-31",
+          "note": "10 fish"
+        },
+        {
+          "start": "11-01",
+          "end": "12-31",
+          "note": "15 fish"
+        }
+      ],
+      "bagLimit": "10/day May 15-Jun 21, 1/day Jun 22-Sep 22, 10/day Sep 23-Oct 31, 15/day Nov 1-Dec 31",
+      "notes": [
+        "Total length does not include the tail filament."
+      ],
+      "year": 2026
+    },
+    {
+      "species": "striped_bass",
+      "state": "NJ",
+      "lastVerified": "2026-10-12",
+      "sourceName": "The Fisherman NJ regulations table (updated May 2026)",
+      "sourceURL": "https://www.thefisherman.com/marine-regulations/",
+      "sizeLimits": [
+        {
+          "min": 28.0,
+          "max": 31.0,
+          "maxInclusive": false,
+          "note": "slot: 28 to less than 31 in"
+        }
+      ],
+      "openSeasons": [
+        {
+          "start": "01-01",
+          "end": "12-31",
+          "regions": [
+            "nj_sb_ocean"
+          ]
+        },
+        {
+          "start": "03-01",
+          "end": "03-31",
+          "regions": [
+            "nj_sb_delriver"
+          ]
+        },
+        {
+          "start": "06-01",
+          "end": "12-31",
+          "regions": [
+            "nj_sb_delriver"
+          ]
+        },
+        {
+          "start": "03-01",
+          "end": "12-31",
+          "regions": [
+            "nj_sb_other"
+          ]
+        }
+      ],
+      "bagLimit": "1 fish per person per day",
+      "notes": [
+        "Federal waters beyond 3 miles are closed to striped bass.",
+        "Circle hooks are required when fishing with natural bait."
+      ],
+      "regions": [
+        {
+          "id": "nj_sb_ocean",
+          "name": "Atlantic Ocean (0-3 miles)"
+        },
+        {
+          "id": "nj_sb_delriver",
+          "name": "Delaware River & tributaries (Trenton to the Salem River)"
+        },
+        {
+          "id": "nj_sb_other",
+          "name": "All other marine waters (bays and tidal rivers)"
+        }
+      ],
+      "year": 2026
+    },
+    {
+      "species": "bluefish",
+      "state": "NJ",
+      "lastVerified": "2026-10-12",
+      "sourceName": "The Fisherman NJ regulations table (updated May 2026)",
+      "sourceURL": "https://www.thefisherman.com/marine-regulations/",
+      "sizeLimits": [],
+      "bagLimit": "5 per person per day (7 on for-hire vessels)",
+      "notes": [
+        "No minimum size and no closed season (coastwide rules effective Jan 1, 2026)."
+      ]
+    },
+    {
+      "species": "tautog",
+      "state": "NJ",
+      "lastVerified": "2026-10-12",
+      "sourceName": "The Fisherman NJ regulations table (updated May 2026)",
+      "sourceURL": "https://www.thefisherman.com/marine-regulations/",
+      "sizeLimits": [
+        {
+          "min": 15.0
+        }
+      ],
+      "openSeasons": [
+        {
+          "start": "01-01",
+          "end": "02-29",
+          "note": "4 fish"
+        },
+        {
+          "start": "04-01",
+          "end": "04-30",
+          "note": "4 fish"
+        },
+        {
+          "start": "08-01",
+          "end": "11-15",
+          "note": "1 fish"
+        },
+        {
+          "start": "11-16",
+          "end": "12-31",
+          "note": "5 fish"
+        }
+      ],
+      "bagLimit": "4/day Jan 1-Feb 28 and Apr 1-30, 1/day Aug 1-Nov 15, 5/day Nov 16-Dec 31",
+      "year": 2026
+    },
+    {
+      "species": "winter_flounder",
+      "state": "NJ",
+      "lastVerified": "2026-10-12",
+      "sourceName": "The Fisherman NJ regulations table (updated May 2026)",
+      "sourceURL": "https://www.thefisherman.com/marine-regulations/",
+      "sizeLimits": [
+        {
+          "min": 12.0
+        }
+      ],
+      "openSeasons": [
+        {
+          "start": "03-01",
+          "end": "12-31"
+        }
+      ],
+      "bagLimit": "2 per person per day",
+      "year": 2026
+    },
+    {
+      "species": "scup",
+      "state": "NJ",
+      "lastVerified": "2026-10-12",
+      "sourceName": "The Fisherman NJ regulations table (updated May 2026)",
+      "sourceURL": "https://www.thefisherman.com/marine-regulations/",
+      "sizeLimits": [
+        {
+          "min": 10.0
+        }
+      ],
+      "openSeasons": [
+        {
+          "start": "01-01",
+          "end": "06-30"
+        },
+        {
+          "start": "09-01",
+          "end": "12-31"
+        }
+      ],
+      "bagLimit": "30 per person per day",
+      "year": 2026
+    },
+    {
+      "species": "weakfish",
+      "state": "NJ",
+      "lastVerified": "2026-10-12",
+      "sourceName": "The Fisherman NJ regulations table (updated May 2026)",
+      "sourceURL": "https://www.thefisherman.com/marine-regulations/",
+      "sizeLimits": [
+        {
+          "min": 13.0
+        }
+      ],
+      "bagLimit": "1 per person per day"
+    },
+    {
+      "species": "rainbow_trout",
+      "state": "NJ",
+      "lastVerified": "2026-10-12",
+      "sourceName": "NJDEP news release 26-0013 (2026 trout season)",
+      "sourceURL": "https://dep.nj.gov/newsrel/26-0013",
+      "sizeLimits": [
+        {
+          "min": 9.0
+        }
+      ],
+      "bagLimit": "6 per day Apr 11 - May 31; 2 per day from June 1",
+      "notes": [
+        "Trout season opened Apr 11, 2026 at 8 a.m.",
+        "The 14 major trout streams close 5 a.m. to 5 p.m. on stocking days.",
+        "Special regulation areas (trophy, wild trout, catch-and-release) have different rules."
+      ],
+      "year": 2026
+    },
+    {
+      "species": "red_drum",
+      "state": "FL",
+      "lastVerified": "2026-10-12",
+      "sourceName": "FWC Red Drum",
+      "sourceURL": "https://myfwc.com/fishing/saltwater/recreational/red-drum/",
+      "sizeLimits": [
+        {
+          "min": 18.0,
+          "max": 27.0,
+          "note": "slot"
+        }
+      ],
+      "prohibitions": [
+        {
+          "condition": "always",
+          "message": "The Indian River Lagoon region is catch-and-release only for red drum.",
+          "regions": [
+            "fl_irl"
+          ]
+        }
+      ],
+      "bagLimit": "1 per person per day (vessel limit 2 or 4 depending on region)",
+      "notes": [
+        "Hook and line or cast net only. Fish must stay whole until landed."
+      ],
+      "regions": [
+        {
+          "id": "fl_panhandle",
+          "name": "Panhandle",
+          "detail": "Alabama line to near Alligator Point",
+          "counties": [
+            "Escambia",
+            "Santa Rosa",
+            "Okaloosa",
+            "Walton",
+            "Bay",
+            "Gulf"
+          ]
+        },
+        {
+          "id": "fl_bigbend",
+          "name": "Big Bend",
+          "detail": "Alligator Point to Fred Howard Park",
+          "counties": [
+            "Wakulla",
+            "Jefferson",
+            "Taylor",
+            "Dixie",
+            "Levy",
+            "Citrus",
+            "Hernando",
+            "Pasco"
+          ]
+        },
+        {
+          "id": "fl_tampabay",
+          "name": "Tampa Bay",
+          "detail": "Fred Howard Park to SR 64 (Manatee)",
+          "counties": [
+            "Pinellas",
+            "Hillsborough"
+          ]
+        },
+        {
+          "id": "fl_sarasotabay",
+          "name": "Sarasota Bay",
+          "detail": "SR 64 (Manatee) to near Venice airport"
+        },
+        {
+          "id": "fl_charlotte",
+          "name": "Charlotte Harbor",
+          "detail": "Venice to Vanderbilt Beach Rd (Collier)",
+          "counties": [
+            "Charlotte",
+            "Lee"
+          ]
+        },
+        {
+          "id": "fl_southwest",
+          "name": "Southwest",
+          "detail": "Vanderbilt Beach Rd, the Keys, to Miami-Dade line",
+          "counties": [
+            "Monroe"
+          ]
+        },
+        {
+          "id": "fl_southeast",
+          "name": "Southeast",
+          "detail": "Palm Beach/Martin line to Monroe line",
+          "counties": [
+            "Palm Beach",
+            "Broward",
+            "Miami-Dade"
+          ]
+        },
+        {
+          "id": "fl_irl",
+          "name": "Indian River Lagoon",
+          "detail": "New Smyrna Beach to Palm Beach/Martin line",
+          "counties": [
+            "Brevard",
+            "Indian River",
+            "St. Lucie",
+            "Martin"
+          ]
+        },
+        {
+          "id": "fl_northeast",
+          "name": "Northeast",
+          "detail": "Georgia line to New Smyrna Beach",
+          "counties": [
+            "Nassau",
+            "Duval",
+            "St. Johns",
+            "Flagler",
+            "Putnam",
+            "Clay"
+          ]
+        }
+      ]
+    },
+    {
+      "species": "spotted_seatrout",
+      "state": "FL",
+      "lastVerified": "2026-10-12",
+      "sourceName": "FWC Spotted Seatrout",
+      "sourceURL": "https://myfwc.com/fishing/saltwater/recreational/spotted-seatrout/",
+      "sizeLimits": [
+        {
+          "min": 15.0,
+          "max": 19.0,
+          "regions": [
+            "fl_panhandle",
+            "fl_bigbend",
+            "fl_tampabay",
+            "fl_sarasotabay",
+            "fl_charlotte",
+            "fl_southwest",
+            "fl_southeast"
+          ],
+          "note": "slot",
+          "overMaxNote": "One fish over 19 inches may be kept per vessel (per person from shore); it counts toward the bag."
+        },
+        {
+          "min": 15.0,
+          "max": 19.0,
+          "regions": [
+            "fl_irl",
+            "fl_northeast"
+          ],
+          "note": "slot"
+        }
+      ],
+      "openSeasons": [
+        {
+          "start": "03-01",
+          "end": "01-31",
+          "regions": [
+            "fl_panhandle"
+          ]
+        },
+        {
+          "start": "01-01",
+          "end": "10-31",
+          "regions": [
+            "fl_irl"
+          ]
+        },
+        {
+          "start": "01-01",
+          "end": "12-31",
+          "regions": [
+            "fl_bigbend",
+            "fl_tampabay",
+            "fl_sarasotabay",
+            "fl_charlotte",
+            "fl_southwest",
+            "fl_southeast",
+            "fl_northeast"
+          ]
+        }
+      ],
+      "bagLimit": "3 per person per day (5 in Big Bend, 2 in Indian River Lagoon)",
+      "regions": [
+        {
+          "id": "fl_panhandle",
+          "name": "Panhandle",
+          "detail": "Alabama line to near Alligator Point",
+          "counties": [
+            "Escambia",
+            "Santa Rosa",
+            "Okaloosa",
+            "Walton",
+            "Bay",
+            "Gulf"
+          ]
+        },
+        {
+          "id": "fl_bigbend",
+          "name": "Big Bend",
+          "detail": "Alligator Point to Fred Howard Park",
+          "counties": [
+            "Wakulla",
+            "Jefferson",
+            "Taylor",
+            "Dixie",
+            "Levy",
+            "Citrus",
+            "Hernando",
+            "Pasco"
+          ]
+        },
+        {
+          "id": "fl_tampabay",
+          "name": "Tampa Bay",
+          "detail": "Fred Howard Park to SR 64 (Manatee)",
+          "counties": [
+            "Pinellas",
+            "Hillsborough"
+          ]
+        },
+        {
+          "id": "fl_sarasotabay",
+          "name": "Sarasota Bay",
+          "detail": "SR 64 (Manatee) to near Venice airport"
+        },
+        {
+          "id": "fl_charlotte",
+          "name": "Charlotte Harbor",
+          "detail": "Venice to Vanderbilt Beach Rd (Collier)",
+          "counties": [
+            "Charlotte",
+            "Lee"
+          ]
+        },
+        {
+          "id": "fl_southwest",
+          "name": "Southwest",
+          "detail": "Vanderbilt Beach Rd, the Keys, to Miami-Dade line",
+          "counties": [
+            "Monroe"
+          ]
+        },
+        {
+          "id": "fl_southeast",
+          "name": "Southeast",
+          "detail": "Palm Beach/Martin line to Monroe line",
+          "counties": [
+            "Palm Beach",
+            "Broward",
+            "Miami-Dade"
+          ]
+        },
+        {
+          "id": "fl_irl",
+          "name": "Indian River Lagoon",
+          "detail": "New Smyrna Beach to Palm Beach/Martin line",
+          "counties": [
+            "Brevard",
+            "Indian River",
+            "St. Lucie",
+            "Martin"
+          ]
+        },
+        {
+          "id": "fl_northeast",
+          "name": "Northeast",
+          "detail": "Georgia line to New Smyrna Beach",
+          "counties": [
+            "Nassau",
+            "Duval",
+            "St. Johns",
+            "Flagler",
+            "Putnam",
+            "Clay"
+          ]
+        }
+      ]
+    },
+    {
+      "species": "common_snook",
+      "state": "FL",
+      "lastVerified": "2026-10-12",
+      "sourceName": "FWC Snook",
+      "sourceURL": "https://myfwc.com/fishing/saltwater/recreational/snook/",
+      "sizeLimits": [
+        {
+          "min": 28.0,
+          "max": 33.0,
+          "regions": [
+            "fl_panhandle",
+            "fl_bigbend",
+            "fl_tampabay",
+            "fl_sarasotabay",
+            "fl_charlotte",
+            "fl_southwest"
+          ],
+          "note": "Gulf slot"
+        },
+        {
+          "min": 28.0,
+          "max": 32.0,
+          "regions": [
+            "fl_southeast",
+            "fl_irl",
+            "fl_northeast"
+          ],
+          "note": "Atlantic slot"
+        }
+      ],
+      "openSeasons": [
+        {
+          "start": "03-01",
+          "end": "04-30",
+          "regions": [
+            "fl_panhandle",
+            "fl_bigbend",
+            "fl_tampabay",
+            "fl_sarasotabay",
+            "fl_charlotte",
+            "fl_southwest"
+          ]
+        },
+        {
+          "start": "09-01",
+          "end": "11-30",
+          "regions": [
+            "fl_panhandle",
+            "fl_bigbend",
+            "fl_tampabay",
+            "fl_sarasotabay"
+          ]
+        },
+        {
+          "start": "10-01",
+          "end": "11-30",
+          "regions": [
+            "fl_charlotte",
+            "fl_southwest"
+          ]
+        },
+        {
+          "start": "02-01",
+          "end": "05-31",
+          "regions": [
+            "fl_southeast",
+            "fl_irl",
+            "fl_northeast"
+          ]
+        },
+        {
+          "start": "09-01",
+          "end": "12-14",
+          "regions": [
+            "fl_southeast",
+            "fl_irl",
+            "fl_northeast"
+          ]
+        }
+      ],
+      "bagLimit": "1 per person per day",
+      "notes": [
+        "A snook permit is required in addition to a saltwater fishing license.",
+        "Hook and line only."
+      ],
+      "regions": [
+        {
+          "id": "fl_panhandle",
+          "name": "Panhandle",
+          "detail": "Alabama line to near Alligator Point",
+          "counties": [
+            "Escambia",
+            "Santa Rosa",
+            "Okaloosa",
+            "Walton",
+            "Bay",
+            "Gulf"
+          ]
+        },
+        {
+          "id": "fl_bigbend",
+          "name": "Big Bend",
+          "detail": "Alligator Point to Fred Howard Park",
+          "counties": [
+            "Wakulla",
+            "Jefferson",
+            "Taylor",
+            "Dixie",
+            "Levy",
+            "Citrus",
+            "Hernando",
+            "Pasco"
+          ]
+        },
+        {
+          "id": "fl_tampabay",
+          "name": "Tampa Bay",
+          "detail": "Fred Howard Park to SR 64 (Manatee)",
+          "counties": [
+            "Pinellas",
+            "Hillsborough"
+          ]
+        },
+        {
+          "id": "fl_sarasotabay",
+          "name": "Sarasota Bay",
+          "detail": "SR 64 (Manatee) to near Venice airport"
+        },
+        {
+          "id": "fl_charlotte",
+          "name": "Charlotte Harbor",
+          "detail": "Venice to Vanderbilt Beach Rd (Collier)",
+          "counties": [
+            "Charlotte",
+            "Lee"
+          ]
+        },
+        {
+          "id": "fl_southwest",
+          "name": "Southwest",
+          "detail": "Vanderbilt Beach Rd, the Keys, to Miami-Dade line",
+          "counties": [
+            "Monroe"
+          ]
+        },
+        {
+          "id": "fl_southeast",
+          "name": "Southeast",
+          "detail": "Palm Beach/Martin line to Monroe line",
+          "counties": [
+            "Palm Beach",
+            "Broward",
+            "Miami-Dade"
+          ]
+        },
+        {
+          "id": "fl_irl",
+          "name": "Indian River Lagoon",
+          "detail": "New Smyrna Beach to Palm Beach/Martin line",
+          "counties": [
+            "Brevard",
+            "Indian River",
+            "St. Lucie",
+            "Martin"
+          ]
+        },
+        {
+          "id": "fl_northeast",
+          "name": "Northeast",
+          "detail": "Georgia line to New Smyrna Beach",
+          "counties": [
+            "Nassau",
+            "Duval",
+            "St. Johns",
+            "Flagler",
+            "Putnam",
+            "Clay"
+          ]
+        }
+      ]
+    },
+    {
+      "species": "sheepshead",
+      "state": "FL",
+      "lastVerified": "2026-10-12",
+      "sourceName": "FWC Sheepshead",
+      "sourceURL": "https://myfwc.com/fishing/saltwater/recreational/sheepshead/",
+      "sizeLimits": [
+        {
+          "min": 12.0
+        }
+      ],
+      "bagLimit": "8 per person per day (50 per vessel in March and April)"
+    },
+    {
+      "species": "gray_snapper",
+      "state": "FL",
+      "lastVerified": "2026-10-12",
+      "sourceName": "FWC Snappers",
+      "sourceURL": "https://myfwc.com/fishing/saltwater/recreational/snappers/",
+      "sizeLimits": [
+        {
+          "min": 10.0
+        }
+      ],
+      "bagLimit": "5 per person per day, within the 10-snapper aggregate"
+    },
+    {
+      "species": "southern_flounder",
+      "state": "FL",
+      "lastVerified": "2026-10-12",
+      "sourceName": "FWC Flounder",
+      "sourceURL": "https://myfwc.com/fishing/saltwater/recreational/flounder/",
+      "sizeLimits": [
+        {
+          "min": 14.0
+        }
+      ],
+      "openSeasons": [
+        {
+          "start": "12-01",
+          "end": "10-14"
+        }
+      ],
+      "bagLimit": "5 per person per day",
+      "notes": [
+        "Closed Oct 15 - Nov 30. Applies to Gulf, southern, summer and fringed flounder."
+      ]
+    },
+    {
+      "species": "summer_flounder",
+      "state": "FL",
+      "lastVerified": "2026-10-12",
+      "sourceName": "FWC Flounder",
+      "sourceURL": "https://myfwc.com/fishing/saltwater/recreational/flounder/",
+      "sizeLimits": [
+        {
+          "min": 14.0
+        }
+      ],
+      "openSeasons": [
+        {
+          "start": "12-01",
+          "end": "10-14"
+        }
+      ],
+      "bagLimit": "5 per person per day",
+      "notes": [
+        "Closed Oct 15 - Nov 30. Applies to Gulf, southern, summer and fringed flounder."
+      ]
+    },
+    {
+      "species": "spiny_lobster",
+      "state": "FL",
+      "lastVerified": "2026-10-12",
+      "sourceName": "FWC Spiny Lobster",
+      "sourceURL": "https://myfwc.com/fishing/saltwater/recreational/lobster/",
+      "sizeLimits": [
+        {
+          "min": 3.0,
+          "minInclusive": false,
+          "note": "carapace must be larger than 3 in"
+        }
+      ],
+      "openSeasons": [
+        {
+          "start": "08-06",
+          "end": "03-31",
+          "note": "regular season"
+        },
+        {
+          "start": "07-29",
+          "end": "07-30",
+          "note": "2026 sport season"
+        }
+      ],
+      "prohibitions": [
+        {
+          "condition": "eggBearing",
+          "message": "Egg-bearing lobsters may not be harvested or possessed."
+        }
+      ],
+      "bagLimit": "6 per person per day (sport season: 12, or 6 in Monroe County and Biscayne NP)",
+      "notes": [
+        "Florida law requires you to carry and use a measuring gauge and measure in the water; use the app as a guide.",
+        "A lobster permit and saltwater fishing license are required."
+      ],
+      "year": 2026
+    },
+    {
+      "species": "stone_crab",
+      "state": "FL",
+      "lastVerified": "2026-10-12",
+      "sourceName": "FWC Stone Crab",
+      "sourceURL": "https://myfwc.com/fishing/saltwater/recreational/stone-crab/",
+      "sizeLimits": [
+        {
+          "min": 2.875,
+          "note": "claw"
+        }
+      ],
+      "openSeasons": [
+        {
+          "start": "10-15",
+          "end": "05-01"
+        }
+      ],
+      "prohibitions": [
+        {
+          "condition": "eggBearing",
+          "message": "Claws may not be taken from egg-bearing crabs."
+        }
+      ],
+      "bagLimit": "1 gallon of claws per person or 2 gallons per vessel, whichever is less",
+      "notes": [
+        "Only claws may be harvested; return the crab to the water alive.",
+        "Measure the forearm (propodus) from the tip of the immovable finger to the first joint."
+      ]
+    },
+    {
+      "species": "red_drum",
+      "state": "NC",
+      "lastVerified": "2026-10-12",
+      "sourceName": "NC Division of Marine Fisheries (effective Sep 2, 2026)",
+      "sourceURL": "https://deq.nc.gov/about/divisions/marine-fisheries/rules-proclamations-and-size-and-bag-limits/recreational-size-and-bag-limits",
+      "sizeLimits": [
+        {
+          "min": 18.0,
+          "max": 27.0,
+          "note": "slot"
+        }
+      ],
+      "bagLimit": "1 per person per day",
+      "notes": [
+        "Gigging, spearing or gaffing red drum is prohibited."
+      ]
+    },
+    {
+      "species": "spotted_seatrout",
+      "state": "NC",
+      "lastVerified": "2026-10-12",
+      "sourceName": "NC Division of Marine Fisheries (effective Sep 2, 2026)",
+      "sourceURL": "https://deq.nc.gov/about/divisions/marine-fisheries/rules-proclamations-and-size-and-bag-limits/recreational-size-and-bag-limits",
+      "sizeLimits": [
+        {
+          "min": 14.0,
+          "max": 20.0,
+          "note": "slot",
+          "overMaxNote": "One fish over 26 inches may be kept as part of the bag."
+        }
+      ],
+      "bagLimit": "3 per person per day"
+    },
+    {
+      "species": "sheepshead",
+      "state": "NC",
+      "lastVerified": "2026-10-12",
+      "sourceName": "NC Division of Marine Fisheries (effective Sep 2, 2026)",
+      "sourceURL": "https://deq.nc.gov/about/divisions/marine-fisheries/rules-proclamations-and-size-and-bag-limits/recreational-size-and-bag-limits",
+      "sizeLimits": [
+        {
+          "min": 14.0
+        }
+      ],
+      "bagLimit": "5 per person per day"
+    },
+    {
+      "species": "black_sea_bass",
+      "state": "NC",
+      "lastVerified": "2026-10-12",
+      "sourceName": "NC Division of Marine Fisheries (effective Sep 2, 2026)",
+      "sourceURL": "https://deq.nc.gov/about/divisions/marine-fisheries/rules-proclamations-and-size-and-bag-limits/recreational-size-and-bag-limits",
+      "sizeLimits": [
+        {
+          "min": 13.0
+        }
+      ],
+      "openSeasons": [
+        {
+          "start": "05-01",
+          "end": "12-31",
+          "regions": [
+            "nc_bsb_north"
+          ]
+        },
+        {
+          "start": "01-01",
+          "end": "12-31",
+          "regions": [
+            "nc_bsb_south"
+          ]
+        }
+      ],
+      "bagLimit": "15 per day north of Cape Hatteras, 7 per day south",
+      "notes": [
+        "Total length does not include the tail filament."
+      ],
+      "regions": [
+        {
+          "id": "nc_bsb_north",
+          "name": "North of Cape Hatteras"
+        },
+        {
+          "id": "nc_bsb_south",
+          "name": "South of Cape Hatteras"
+        }
+      ]
+    },
+    {
+      "species": "bluefish",
+      "state": "NC",
+      "lastVerified": "2026-10-12",
+      "sourceName": "NC Division of Marine Fisheries (effective Sep 2, 2026)",
+      "sourceURL": "https://deq.nc.gov/about/divisions/marine-fisheries/rules-proclamations-and-size-and-bag-limits/recreational-size-and-bag-limits",
+      "sizeLimits": [],
+      "bagLimit": "5 per person per day (up to 7 on for-hire vessels)",
+      "notes": [
+        "No minimum size."
+      ]
+    }
+  ]
+}

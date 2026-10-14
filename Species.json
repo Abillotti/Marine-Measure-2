@@ -1,0 +1,508 @@
+{
+  "species": [
+    {
+      "id": "blue_crab",
+      "commonName": "Blue Crab",
+      "scientificName": "Callinectes sapidus",
+      "group": "crab",
+      "waterType": "saltwater",
+      "measurement": "carapaceWidth",
+      "measurementLabel": "Carapace width (point to point)",
+      "howToMeasure": "Set the crab flat, shell up. Measure straight across the back from the tip of one long side spine to the tip of the other.",
+      "heightRatio": 0.12,
+      "trophyInches": 7.0,
+      "typicalMinInches": 3.0,
+      "typicalMaxInches": 9.0,
+      "askShell": true,
+      "sexMode": "apron",
+      "nicknames": [
+        "Jimmy (male)",
+        "Sook (mature female)",
+        "Sally / she-crab (immature female)",
+        "Sponge crab (carrying eggs)"
+      ],
+      "identification": [
+        "Olive-green to brown shell with a long, sharp spine on each side",
+        "Bright blue claws; mature females have red-orange claw tips (\"painted fingernails\")",
+        "Last pair of legs flattened into swimming paddles",
+        "Males have a narrow T-shaped apron; mature females have a wide, rounded apron"
+      ],
+      "habitat": "Bays, estuaries, tidal rivers and marsh creeks along the entire U.S. Atlantic and Gulf coasts.",
+      "funFact": "Callinectes sapidus means \"savory beautiful swimmer.\" A blue crab molts more than 20 times on the way to adulthood.",
+      "colorHex": "#2E6FD8"
+    },
+    {
+      "id": "stone_crab",
+      "commonName": "Florida Stone Crab",
+      "scientificName": "Menippe mercenaria",
+      "group": "crab",
+      "waterType": "saltwater",
+      "measurement": "clawLength",
+      "measurementLabel": "Claw forearm length (propodus)",
+      "howToMeasure": "Measure the claw from the tip of the lower, immovable finger straight back to the first joint (the elbow).",
+      "heightRatio": 0.08,
+      "trophyInches": 4.5,
+      "typicalMinInches": 2.0,
+      "typicalMaxInches": 5.5,
+      "askShell": false,
+      "sexMode": "eggs",
+      "nicknames": [
+        "Stone crab claws"
+      ],
+      "identification": [
+        "Heavy, oval brownish-red body with gray spots",
+        "Huge, unequal claws with black tips",
+        "Only the claws may be harvested; the crab goes back alive"
+      ],
+      "habitat": "Rocky bottoms, jetties, seagrass beds and oyster reefs in Florida and the Gulf.",
+      "funFact": "A stone crab can regrow a harvested claw over several molts, which is why only claws are taken.",
+      "colorHex": "#B5482F"
+    },
+    {
+      "id": "spiny_lobster",
+      "commonName": "Caribbean Spiny Lobster",
+      "scientificName": "Panulirus argus",
+      "group": "lobster",
+      "waterType": "saltwater",
+      "measurement": "carapaceLength",
+      "measurementLabel": "Carapace length",
+      "howToMeasure": "Measure from the forward edge between the horns over the eyes straight back to the rear edge of the body shell. Florida requires measuring in the water with a gauge.",
+      "heightRatio": 0.15,
+      "trophyInches": 5.0,
+      "typicalMinInches": 2.0,
+      "typicalMaxInches": 6.0,
+      "askShell": false,
+      "sexMode": "eggs",
+      "nicknames": [
+        "Florida lobster",
+        "Bug"
+      ],
+      "identification": [
+        "Two large, forward-curving horns over the eyes",
+        "Long spiny antennae and no big claws",
+        "Mottled brown-orange shell with cream spots on the tail"
+      ],
+      "habitat": "Coral reefs, rocky ledges and seagrass in South Florida, the Keys and the Caribbean.",
+      "funFact": "Spiny lobsters migrate in single-file lines of up to 50 animals, each touching the one ahead with its antennae.",
+      "colorHex": "#D9822B"
+    },
+    {
+      "id": "summer_flounder",
+      "commonName": "Summer Flounder",
+      "scientificName": "Paralichthys dentatus",
+      "group": "fish",
+      "waterType": "saltwater",
+      "measurement": "totalLength",
+      "measurementLabel": "Total length",
+      "howToMeasure": "Lay the fish flat. Measure from the tip of the snout (mouth closed) to the tip of the tail.",
+      "heightRatio": 0.03,
+      "trophyInches": 24.0,
+      "typicalMinInches": 10.0,
+      "typicalMaxInches": 30.0,
+      "askShell": false,
+      "sexMode": "none",
+      "nicknames": [
+        "Fluke",
+        "Doormat (big fluke)"
+      ],
+      "identification": [
+        "Both eyes on the left side of the body",
+        "Large mouth with sharp teeth that reaches past the eyes",
+        "Five or more eye-like spots scattered over the brown upper side"
+      ],
+      "habitat": "Sandy and muddy bottoms of bays, inlets and the nearshore ocean from Massachusetts to Florida.",
+      "funFact": "Flounder hatch with an eye on each side; one eye migrates across the head as they grow.",
+      "colorHex": "#8C6D46"
+    },
+    {
+      "id": "southern_flounder",
+      "commonName": "Southern Flounder",
+      "scientificName": "Paralichthys lethostigma",
+      "group": "fish",
+      "waterType": "saltwater",
+      "measurement": "totalLength",
+      "measurementLabel": "Total length",
+      "howToMeasure": "Lay the fish flat. Measure from the tip of the snout (mouth closed) to the tip of the tail.",
+      "heightRatio": 0.03,
+      "trophyInches": 22.0,
+      "typicalMinInches": 10.0,
+      "typicalMaxInches": 28.0,
+      "askShell": false,
+      "sexMode": "none",
+      "nicknames": [
+        "Flounder",
+        "Flatfish"
+      ],
+      "identification": [
+        "Both eyes on the left side of the body",
+        "Diffuse dark blotches that do not form distinct eye-spots",
+        "Large mouth with sharp teeth"
+      ],
+      "habitat": "Estuaries, tidal creeks and nearshore waters from North Carolina around Florida to Texas.",
+      "funFact": "Southern flounder tolerate nearly fresh water and are sometimes caught far up coastal rivers.",
+      "colorHex": "#7A5C3C"
+    },
+    {
+      "id": "black_sea_bass",
+      "commonName": "Black Sea Bass",
+      "scientificName": "Centropristis striata",
+      "group": "fish",
+      "waterType": "saltwater",
+      "measurement": "totalLength",
+      "measurementLabel": "Total length (excluding tail filament)",
+      "howToMeasure": "Measure from the tip of the snout to the tip of the tail, not counting the long filament on the top of the tail.",
+      "heightRatio": 0.06,
+      "trophyInches": 20.0,
+      "typicalMinInches": 8.0,
+      "typicalMaxInches": 24.0,
+      "askShell": false,
+      "sexMode": "none",
+      "nicknames": [
+        "Sea bass",
+        "Knothead (large male)"
+      ],
+      "identification": [
+        "Stout, dark gray to black body with pale scale centers that form stripes",
+        "Long filament on the top lobe of the tail",
+        "Large males develop a blue hump on the head"
+      ],
+      "habitat": "Rocky bottoms, wrecks and reefs from the Gulf of Maine to Florida.",
+      "funFact": "Black sea bass start life as females, and many become males as they grow.",
+      "colorHex": "#3C4A5C"
+    },
+    {
+      "id": "striped_bass",
+      "commonName": "Striped Bass",
+      "scientificName": "Morone saxatilis",
+      "group": "fish",
+      "waterType": "saltwater",
+      "measurement": "totalLength",
+      "measurementLabel": "Total length",
+      "howToMeasure": "Lay the fish flat. Measure from the tip of the snout (mouth closed) to the tip of the tail with the tail lobes pinched together.",
+      "heightRatio": 0.05,
+      "trophyInches": 40.0,
+      "typicalMinInches": 12.0,
+      "typicalMaxInches": 50.0,
+      "askShell": false,
+      "sexMode": "none",
+      "nicknames": [
+        "Striper",
+        "Rockfish"
+      ],
+      "identification": [
+        "Seven or eight dark horizontal stripes on silvery sides",
+        "Two separate dorsal fins",
+        "Large mouth with a jutting lower jaw"
+      ],
+      "habitat": "Coastal waters, bays and rivers from Canada to North Carolina; spawns in fresh water.",
+      "funFact": "Stripers live in salt water and run up rivers like the Hudson and Delaware to spawn.",
+      "colorHex": "#4D6A86"
+    },
+    {
+      "id": "bluefish",
+      "commonName": "Bluefish",
+      "scientificName": "Pomatomus saltatrix",
+      "group": "fish",
+      "waterType": "saltwater",
+      "measurement": "totalLength",
+      "measurementLabel": "Total length",
+      "howToMeasure": "Lay the fish flat. Measure from the tip of the snout (mouth closed) to the tip of the tail.",
+      "heightRatio": 0.05,
+      "trophyInches": 30.0,
+      "typicalMinInches": 8.0,
+      "typicalMaxInches": 36.0,
+      "askShell": false,
+      "sexMode": "none",
+      "nicknames": [
+        "Snapper (young)",
+        "Gator (large)"
+      ],
+      "identification": [
+        "Blue-green back fading to silver sides",
+        "Large mouth with razor-sharp triangular teeth",
+        "Dark blotch at the base of the pectoral fin"
+      ],
+      "habitat": "Open coastal waters, inlets and surf; migrates along the U.S. East Coast.",
+      "funFact": "Feeding schools of bluefish can drive baitfish right onto the beach during a blitz.",
+      "colorHex": "#2F7DA1"
+    },
+    {
+      "id": "tautog",
+      "commonName": "Tautog",
+      "scientificName": "Tautoga onitis",
+      "group": "fish",
+      "waterType": "saltwater",
+      "measurement": "totalLength",
+      "measurementLabel": "Total length",
+      "howToMeasure": "Lay the fish flat. Measure from the tip of the snout (mouth closed) to the tip of the tail.",
+      "heightRatio": 0.06,
+      "trophyInches": 20.0,
+      "typicalMinInches": 10.0,
+      "typicalMaxInches": 26.0,
+      "askShell": false,
+      "sexMode": "none",
+      "nicknames": [
+        "Blackfish",
+        "Tog"
+      ],
+      "identification": [
+        "Thick, blackish-brown body with a blunt head",
+        "Thick rubbery lips and strong crushing teeth",
+        "Large males have a white chin"
+      ],
+      "habitat": "Rocky structure, jetties, wrecks and bridge pilings from Nova Scotia to South Carolina.",
+      "funFact": "Tautog sleep at night wedged into rocks and can live more than 30 years.",
+      "colorHex": "#4A4238"
+    },
+    {
+      "id": "winter_flounder",
+      "commonName": "Winter Flounder",
+      "scientificName": "Pseudopleuronectes americanus",
+      "group": "fish",
+      "waterType": "saltwater",
+      "measurement": "totalLength",
+      "measurementLabel": "Total length",
+      "howToMeasure": "Lay the fish flat. Measure from the tip of the snout (mouth closed) to the tip of the tail.",
+      "heightRatio": 0.03,
+      "trophyInches": 18.0,
+      "typicalMinInches": 8.0,
+      "typicalMaxInches": 20.0,
+      "askShell": false,
+      "sexMode": "none",
+      "nicknames": [
+        "Flatfish",
+        "Blackback"
+      ],
+      "identification": [
+        "Both eyes on the right side of the body",
+        "Small mouth that does not reach the eye",
+        "Thick, smooth, reddish-brown to dark upper side"
+      ],
+      "habitat": "Shallow muddy and sandy bays from Labrador to Georgia; moves inshore in winter to spawn.",
+      "funFact": "Winter flounder make an antifreeze protein that lets them survive near-freezing water.",
+      "colorHex": "#6B5A48"
+    },
+    {
+      "id": "scup",
+      "commonName": "Scup",
+      "scientificName": "Stenotomus chrysops",
+      "group": "fish",
+      "waterType": "saltwater",
+      "measurement": "totalLength",
+      "measurementLabel": "Total length",
+      "howToMeasure": "Lay the fish flat. Measure from the tip of the snout (mouth closed) to the tip of the tail.",
+      "heightRatio": 0.06,
+      "trophyInches": 16.0,
+      "typicalMinInches": 7.0,
+      "typicalMaxInches": 18.0,
+      "askShell": false,
+      "sexMode": "none",
+      "nicknames": [
+        "Porgy"
+      ],
+      "identification": [
+        "Deep, flat silvery body with faint blue lines",
+        "Steep forehead and small mouth",
+        "Large, firm scales"
+      ],
+      "habitat": "Hard and sandy bottoms near structure from Massachusetts to North Carolina.",
+      "funFact": "Scup can live about 20 years and school offshore in winter.",
+      "colorHex": "#9AA9B5"
+    },
+    {
+      "id": "weakfish",
+      "commonName": "Weakfish",
+      "scientificName": "Cynoscion regalis",
+      "group": "fish",
+      "waterType": "saltwater",
+      "measurement": "totalLength",
+      "measurementLabel": "Total length",
+      "howToMeasure": "Lay the fish flat. Measure from the tip of the snout (mouth closed) to the tip of the tail.",
+      "heightRatio": 0.04,
+      "trophyInches": 28.0,
+      "typicalMinInches": 10.0,
+      "typicalMaxInches": 32.0,
+      "askShell": false,
+      "sexMode": "none",
+      "nicknames": [
+        "Gray trout",
+        "Squeteague"
+      ],
+      "identification": [
+        "Dark olive back with small dark spots in wavy lines",
+        "Two large canine teeth in the upper jaw",
+        "Yellowish fins"
+      ],
+      "habitat": "Bays, estuaries and the nearshore ocean from Nova Scotia to Florida.",
+      "funFact": "The name comes from their delicate mouth, which tears easily, not from a weak fight.",
+      "colorHex": "#7C8C6A"
+    },
+    {
+      "id": "rainbow_trout",
+      "commonName": "Rainbow Trout",
+      "scientificName": "Oncorhynchus mykiss",
+      "group": "fish",
+      "waterType": "freshwater",
+      "measurement": "totalLength",
+      "measurementLabel": "Total length",
+      "howToMeasure": "Lay the fish flat. Measure from the tip of the snout (mouth closed) to the tip of the tail.",
+      "heightRatio": 0.04,
+      "trophyInches": 20.0,
+      "typicalMinInches": 7.0,
+      "typicalMaxInches": 24.0,
+      "askShell": false,
+      "sexMode": "none",
+      "nicknames": [
+        "Rainbow",
+        "Steelhead (sea-run)"
+      ],
+      "identification": [
+        "Pink-red stripe along the side",
+        "Small black spots on the back, sides and tail",
+        "Squarish, spotted tail"
+      ],
+      "habitat": "Cold, clear streams, rivers and lakes; New Jersey stocks them every spring.",
+      "funFact": "Rainbow trout that migrate to the ocean are called steelhead.",
+      "colorHex": "#C2607A"
+    },
+    {
+      "id": "red_drum",
+      "commonName": "Red Drum",
+      "scientificName": "Sciaenops ocellatus",
+      "group": "fish",
+      "waterType": "saltwater",
+      "measurement": "totalLength",
+      "measurementLabel": "Total length",
+      "howToMeasure": "Lay the fish flat. Measure from the tip of the snout (mouth closed) to the tip of the tail.",
+      "heightRatio": 0.05,
+      "trophyInches": 40.0,
+      "typicalMinInches": 12.0,
+      "typicalMaxInches": 45.0,
+      "askShell": false,
+      "sexMode": "none",
+      "nicknames": [
+        "Redfish",
+        "Puppy drum (small)",
+        "Bull red (large)"
+      ],
+      "identification": [
+        "Copper-bronze body",
+        "One or more black spots near the base of the tail",
+        "No chin barbels (black drum have them)"
+      ],
+      "habitat": "Shallow flats, marshes, inlets and beaches from Massachusetts to Mexico.",
+      "funFact": "The tail spot may trick predators into striking the tail instead of the head.",
+      "colorHex": "#B4553A"
+    },
+    {
+      "id": "spotted_seatrout",
+      "commonName": "Spotted Seatrout",
+      "scientificName": "Cynoscion nebulosus",
+      "group": "fish",
+      "waterType": "saltwater",
+      "measurement": "totalLength",
+      "measurementLabel": "Total length",
+      "howToMeasure": "Lay the fish flat. Measure from the tip of the snout (mouth closed) to the tip of the tail.",
+      "heightRatio": 0.04,
+      "trophyInches": 24.0,
+      "typicalMinInches": 10.0,
+      "typicalMaxInches": 28.0,
+      "askShell": false,
+      "sexMode": "none",
+      "nicknames": [
+        "Speckled trout",
+        "Gator trout (large)"
+      ],
+      "identification": [
+        "Silver-gray body with round black spots on the back, dorsal fins and tail",
+        "One or two prominent canine teeth in the upper jaw",
+        "No spots on the belly"
+      ],
+      "habitat": "Seagrass flats, estuaries and tidal creeks from New York to Mexico.",
+      "funFact": "Males croak with special muscles to attract mates.",
+      "colorHex": "#7E8F9E"
+    },
+    {
+      "id": "common_snook",
+      "commonName": "Common Snook",
+      "scientificName": "Centropomus undecimalis",
+      "group": "fish",
+      "waterType": "saltwater",
+      "measurement": "totalLength",
+      "measurementLabel": "Total length",
+      "howToMeasure": "Lay the fish flat. Measure from the tip of the snout (mouth closed) to the tip of the tail with the tail lobes pinched together.",
+      "heightRatio": 0.05,
+      "trophyInches": 36.0,
+      "typicalMinInches": 14.0,
+      "typicalMaxInches": 40.0,
+      "askShell": false,
+      "sexMode": "none",
+      "nicknames": [
+        "Linesider",
+        "Robalo"
+      ],
+      "identification": [
+        "Bold black lateral line running all the way to the tail",
+        "Sloping forehead and jutting lower jaw",
+        "Yellowish fins"
+      ],
+      "habitat": "Mangroves, inlets, beaches and canals of South and Central Florida.",
+      "funFact": "Snook can change from male to female as they grow.",
+      "colorHex": "#A08A3C"
+    },
+    {
+      "id": "sheepshead",
+      "commonName": "Sheepshead",
+      "scientificName": "Archosargus probatocephalus",
+      "group": "fish",
+      "waterType": "saltwater",
+      "measurement": "totalLength",
+      "measurementLabel": "Total length",
+      "howToMeasure": "Lay the fish flat. Measure from the tip of the snout (mouth closed) to the tip of the tail.",
+      "heightRatio": 0.07,
+      "trophyInches": 20.0,
+      "typicalMinInches": 8.0,
+      "typicalMaxInches": 24.0,
+      "askShell": false,
+      "sexMode": "none",
+      "nicknames": [
+        "Convict fish"
+      ],
+      "identification": [
+        "Five or six bold black vertical bars on a silver body",
+        "Human-like front teeth and molars for crushing barnacles",
+        "Sharp, stout dorsal spines"
+      ],
+      "habitat": "Docks, bridges, jetties and oyster bars from Nova Scotia to Brazil.",
+      "funFact": "Their teeth look remarkably human and crunch through crabs, barnacles and oysters.",
+      "colorHex": "#5E6B73"
+    },
+    {
+      "id": "gray_snapper",
+      "commonName": "Gray Snapper",
+      "scientificName": "Lutjanus griseus",
+      "group": "fish",
+      "waterType": "saltwater",
+      "measurement": "totalLength",
+      "measurementLabel": "Total length",
+      "howToMeasure": "Lay the fish flat. Measure from the tip of the snout (mouth closed) to the tip of the tail.",
+      "heightRatio": 0.05,
+      "trophyInches": 18.0,
+      "typicalMinInches": 8.0,
+      "typicalMaxInches": 22.0,
+      "askShell": false,
+      "sexMode": "none",
+      "nicknames": [
+        "Mangrove snapper"
+      ],
+      "identification": [
+        "Gray to reddish-brown body",
+        "Dark band through the eye on young fish",
+        "Two prominent canine teeth in the upper jaw"
+      ],
+      "habitat": "Mangroves, docks, seawalls and reefs throughout Florida.",
+      "funFact": "Juveniles grow up in mangroves and seagrass before moving out to reefs.",
+      "colorHex": "#8B6F62"
+    }
+  ]
+}

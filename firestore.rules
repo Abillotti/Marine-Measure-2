@@ -1,0 +1,51 @@
+rules_version = '2';
+
+// MarineMeasure community database rules.
+// Paste this into Firebase console > Firestore Database > Rules > Publish
+// (or deploy with: firebase deploy --only firestore).
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    match /scans/{scanId} {
+      // Anyone can read the pooled scans (they contain no personal info).
+      allow read: if true;
+
+      // Signed-in (anonymous) users can add scans they own, with sane values.
+      allow create: if request.auth != null
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.keys().hasOnly([
+             'species', 'sizeIn', 'method', 'sex', 'shell', 'verdict', 'state',
+             'county', 'waterBody', 'takenAt', 'uid', 'appVersion', 'lat', 'lon'])
+        && request.resource.data.keys().hasAll(['species', 'sizeIn', 'method', 'takenAt', 'uid'])
+        && request.resource.data.species is string
+        && request.resource.data.species.size() <= 40
+        && request.resource.data.sizeIn is number
+        && request.resource.data.sizeIn > 0
+        && request.resource.data.sizeIn < 80
+        && request.resource.data.method in ['lidar', 'surface', 'manual']
+        && request.resource.data.takenAt is timestamp
+        && request.resource.data.takenAt < request.time + duration.value(1, 'd')
+        && (!('lat' in request.resource.data)
+            || (request.resource.data.lat is number
+                && request.resource.data.lat >= -90 && request.resource.data.lat <= 90))
+        && (!('lon' in request.resource.data)
+            || (request.resource.data.lon is number
+                && request.resource.data.lon >= -180 && request.resource.data.lon <= 180))
+        && (!('state' in request.resource.data)
+            || (request.resource.data.state is string && request.resource.data.state.size() <= 4))
+        && (!('county' in request.resource.data)
+            || (request.resource.data.county is string && request.resource.data.county.size() <= 80))
+        && (!('waterBody' in request.resource.data)
+            || (request.resource.data.waterBody is string && request.resource.data.waterBody.size() <= 120));
+
+      // Only the person who shared a scan can remove it. Nobody can edit scans.
+      allow delete: if request.auth != null && resource.data.uid == request.auth.uid;
+      allow update: if false;
+    }
+
+    // Everything else is closed.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
